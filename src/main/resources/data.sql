@@ -1,0 +1,2 @@
+insert into users(name,surname,email,username,password) values('Daniel','Marcus','dm@gmail.com','dan','dan123')
+insert into users(name,surname,email,username,password) values('Malachi','Lameck','mn@gmail.com','mal','malachi123')
