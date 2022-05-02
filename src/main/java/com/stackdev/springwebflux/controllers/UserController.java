@@ -18,13 +18,6 @@ public class UserController {
     @GetMapping(value = "/users", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<Users> findAllUsers(){
         System.out.println("Getting Users");
-        System.out.println("Getting users from the postgres DB");
-        System.out.println("Testing the out for the vide");
-        System.out.println("Testing the if this video has sharpen and confirm it it is");
-        System.out.println("Gain the something cript");
-        System.out.println("I have just changed the encoder and i jpe");
-        //
-
         return userService.getAllUsers();
     }
 
